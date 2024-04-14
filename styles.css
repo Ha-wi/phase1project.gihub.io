@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Hide overflow to prevent scrollbars from appearing */
+    background-color: #121212; /* Dark background color */
+    color: #160101; /* Light text color */
+}
+
+
+
+h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+main {
+    position: absolute; /* Position main content on top of the video */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; /* Ensure main content is above the video */
+}
+
+button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #1a1a1a; /* Dark button background color */
+    color: #ffffff; /* Light button text color */
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+button:hover {
+    background-color: #2c2c2c; /* Darker button background color on hover */
+}
+
+#phase-details {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: solid 2px #d9dbe7;
+    border-radius: 4px;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.dark-theme {
+    background-color: #222;
+    color: #fff;
+}
+
+.light-theme {
+    background-color: #fff;
+    color: #222;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.navbar button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    color: #d9dbe7;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: rgba(226, 223, 230, 0.1);
+}
+
+#buttons {
+    display: flex;
+}
+
+#phase-details {
+    color: #0f032b;
+}

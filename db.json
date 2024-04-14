@@ -1,0 +1,61 @@
+{
+    "phases": [
+      {
+        "order": 1,
+        "name": "New Moon",
+        "date": "April 1, 2024",
+        "nextPhase": "Waxing Crescent",
+        "description": "The moon is not visible from Earth's perspective. It marks the beginning of the lunar cycle."
+      },
+      {
+        "order": 2,
+        "name": "Waxing Crescent",
+        "date": "April 5, 2024",
+        "nextPhase": "First Quarter",
+        "description": "The moon is partially illuminated, growing larger each night."
+      },
+      {
+        "order": 3,
+        "name": "First Quarter",
+        "date": "April 13, 2024",
+        "nextPhase": "Waxing Gibbous",
+        "description": "The moon is one quarter of the way through its orbit."
+      },
+      {
+        "order": 4,
+        "name": "Waxing Gibbous",
+        "date": "April 19, 2024",
+        "nextPhase": "Full Moon",
+        "description": "The moon is mostly illuminated, growing larger each night."
+      },
+      {
+        "order": 5,
+        "name": "Full Moon",
+        "date": "April 27, 2024",
+        "nextPhase": "Waning Gibbous",
+        "description": "The moon appears fully illuminated from Earth's perspective."
+      },
+      {
+        "order": 6,
+        "name": "Waning Gibbous",
+        "date": "May 3, 2024",
+        "nextPhase": "Last Quarter",
+        "description": "The moon is mostly illuminated, shrinking in size each night."
+      },
+      {
+        "order": 7,
+        "name": "Last Quarter",
+        "date": "May 11, 2024",
+        "nextPhase": "Waning Crescent",
+        "description": "The moon is three quarters of the way through its orbit."
+      },
+      {
+        "order": 8,
+        "name": "Waning Crescent",
+        "date": "May 18, 2024",
+        "nextPhase": "New Moon",
+        "description": "The moon is partially illuminated, shrinking in size each night."
+      }
+    ]
+  }
+  
